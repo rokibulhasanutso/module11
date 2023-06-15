@@ -1,0 +1,71 @@
+/* CSS styling for Part 2 */
+body {
+    font-family: Arial, sans-serif;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: blue;
+}
+
+.container {
+    background-color: #f2f2f2;
+    width : 800px;
+    height : auto;
+    margin : 20px auto;
+    padding : 10px;
+    border : 2px solid var(--main-color);
+}
+
+p {
+    font-size: 1em;
+}
+
+table {
+    width : 100%;
+    border-collapse: collapse;
+    margin-bottom  : 20px;
+}
+
+th,
+td {
+    border : 1px solid #ccc;
+    padding : 8px;
+}
+
+th {
+    background-color: var(--main-color);
+    color : #fff;
+}
+
+tr:hover {
+    background-color: lightgray;
+}
+
+ul li:first-child {
+    font-weight: bold;
+    color : red;
+}
+
+img {
+    width : 100%;
+    height : auto;
+    margin-bottom : 20px;
+}
+
+/* CSS styling for Part 3 */
+/* CSS variables */
+:root {
+    --main-color : #337ab7;
+    --font-size-large : 32px;
+    --font-size-medium: 16px;
+}
+
+h1 {
+    color : var(--main-color);
+    font-size : var(--font-size-large);
+    text-align: center;
+}
